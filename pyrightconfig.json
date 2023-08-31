@@ -1,0 +1,6 @@
+{
+  "venvPath": "./league_env",
+  "venv": "league_env",
+  "reportOptionalSubscript": false,
+  "reportOptionalMemberAccess": false
+}

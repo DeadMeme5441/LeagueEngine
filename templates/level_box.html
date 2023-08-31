@@ -1,0 +1,25 @@
+<div class="p-6 mt-2" id="level_box">
+    <div class="flex box-content">
+        <div class="flex">
+            <label class="font-bold text-lg">Level :</label>
+        </div>
+        <div class="flex">
+            <button class="pl-2 pr-2 font-bold text-lg"
+                    hx-get="/level/{{level}}/decrease"
+                    hx-target="#level_box"
+                    hx-swap="outerHTML"
+            >-</button>
+        </div>
+        <div class="flex">
+            <input class="border border-gray-400 w-12 text-center"
+            type="text" name="level" value="{{level}}">
+        </div>
+        <div class="flex">
+            <button class="pl-2 pr-2 font-bold text-lg"
+                    hx-get="/level/{{level}}/increase"
+                    hx-target="#level_box"
+                    hx-swap="outerHTML"
+            >+</button>
+        </div>
+    </div>
+</div>

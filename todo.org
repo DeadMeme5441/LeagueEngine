@@ -1,0 +1,7 @@
+* Todo for League Engine
+
+** Data Pipeline[0/4]:
+*** [ ] Get all patch note data
+*** [ ] Store in S3 bucket
+*** [ ] Generate MongoDB schema for data
+*** [ ] Update MongoDB with all patch data
